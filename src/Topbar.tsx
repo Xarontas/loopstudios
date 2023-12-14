@@ -8,7 +8,7 @@ export default function TopBar() {
             <div className='divTop'>
                 <Navbar collapseOnSelect expand="lg" className="navbar-dark shadow-5-strong pad">
                     <Container>
-                        <Navbar.Brand href="#home"><img src='/public/logo.svg' alt="logo" width={'100%'} height={'30px'} /></Navbar.Brand>
+                        <Navbar.Brand href="#home"><img src='../logo.svg' alt="logo" width={'100%'} height={'30px'} /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
