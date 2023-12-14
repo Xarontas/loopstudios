@@ -7,7 +7,7 @@ export default function Footer() {
                 <Container >
                     <div className="footerDiv">
                         <div className="leftDiv">
-                            <div className='footerLogo'><img src='../public/logo.svg' height={'20px'} width={'120px'} alt='footer logo' /></div>
+                            <div className='footerLogo'><img src='../logo.svg' height={'20px'} width={'120px'} alt='footer logo' /></div>
                             <div className='footerLinks'>
                                 <Nav>
                                     <Nav.Link href="#About" eventKey={1}>About</Nav.Link>
@@ -25,10 +25,10 @@ export default function Footer() {
                         <div className="rightDiv">
                             <div className='social'>
                                 <Nav>
-                                    <Nav.Link href="www.facebook.com" target='_blank'><img src="/public/icon-facebook.svg" alt='facebook' /> </Nav.Link>
-                                    <Nav.Link href="www.twitter.com" target='_blank'><img src="/public/icon-twitter.svg" alt='twitter' /> </Nav.Link>
-                                    <Nav.Link href="www.pinterest.com" target='_blank'><img src="/public/icon-pinterest.svg" alt='pinterest' /> </Nav.Link>
-                                    <Nav.Link href="www.instagram.com" target='_blank'><img src="/public/icon-instagram.svg" alt='instagram' /> </Nav.Link>
+                                    <Nav.Link href="www.facebook.com" target='_blank'><img src="../icon-facebook.svg" alt='facebook' /> </Nav.Link>
+                                    <Nav.Link href="www.twitter.com" target='_blank'><img src="../icon-twitter.svg" alt='twitter' /> </Nav.Link>
+                                    <Nav.Link href="www.pinterest.com" target='_blank'><img src="../icon-pinterest.svg" alt='pinterest' /> </Nav.Link>
+                                    <Nav.Link href="www.instagram.com" target='_blank'><img src="../icon-instagram.svg" alt='instagram' /> </Nav.Link>
 
                                 </Nav>
                             </div>
