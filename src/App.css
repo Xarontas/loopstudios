@@ -1,0 +1,408 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+#root {
+  font-family: 'Alata', sans-serif;
+}
+
+
+.row>* {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.divTop {
+  background-image: url(../public/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+  max-width: 100%;
+
+}
+
+.navbar-nav {
+  padding-top: 15px;
+}
+
+.divTop a.nav-link {
+  color: white;
+}
+
+.divTop a.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.pad {
+  padding-top: 30px;
+}
+
+.topTitle {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  border: 2px solid white;
+  padding: 40px;
+  margin-top: 20%;
+  max-width: 700px;
+
+}
+
+.section1Div {
+  margin: 60px auto;
+  display: flex;
+
+}
+
+.section1Div .row {
+  align-items: end;
+}
+
+.section1Photo {
+  background-image: url(../public/desktop/image-interactive.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 500px;
+  width: 700px;
+}
+
+.section1Title {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+}
+
+.section1TxtDiv {
+  max-width: 600px;
+  padding: 50px;
+  margin-left: -110px;
+  background-color: white;
+}
+
+.section1Txt {
+  font-size: 14px;
+}
+
+.galleryWrapper {
+  padding-bottom: 60px;
+}
+
+.galleryDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.galleryTitle {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+}
+
+.gallerybtn {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  padding: 5px 20px;
+  border: 1px solid black;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.gallerybtn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.gallerybtn2 {
+  display: none;
+}
+
+.galleryPhotosDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.galleryPhotosDiv span {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  display: inline-flex;
+  max-width: 230px;
+  padding: 10px 40px;
+}
+
+.galleryImage1,
+.galleryImage2,
+.galleryImage3,
+.galleryImage4,
+.galleryImage5,
+.galleryImage6,
+.galleryImage7,
+.galleryImage8 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 400px;
+  flex-grow: 1;
+  flex-basis: 260px;
+  display: flex;
+  align-items: end;
+}
+
+.galleryImage1 {
+  background-image: url(../public/desktop/image-deep-earth.jpg);
+}
+
+.galleryImage2 {
+  background-image: url(../public/desktop/image-night-arcade.jpg);
+}
+
+.galleryImage3 {
+  background-image: url(../public/desktop/image-soccer-team.jpg);
+}
+
+.galleryImage4 {
+  background-image: url(../public/desktop/image-grid.jpg);
+}
+
+.galleryImage5 {
+  background-image: url(../public/desktop/image-from-above.jpg);
+}
+
+.galleryImage6 {
+  background-image: url(../public/desktop/image-pocket-borealis.jpg);
+}
+
+.galleryImage7 {
+  background-image: url(../public/desktop/image-curiosity.jpg);
+}
+
+.galleryImage8 {
+  background-image: url(../public/desktop/image-fisheye.jpg);
+}
+
+.footerWrapper {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.footerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footerLogo,
+.social {
+  padding-bottom: 10px;
+}
+
+.leftDiv {
+  text-align: left;
+}
+
+.footerLinks a.nav-link {
+  padding-left: 0;
+  padding-right: 20px;
+  color: white;
+}
+
+.footerLinks a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.social a.nav-link:last-child {
+  padding-right: 0px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+
+  .topTitle {
+
+    font-size: 30px;
+    margin-top: 25%;
+  }
+
+  .section1Div .col-lg-5 {
+    text-align: center;
+    text-align: -webkit-center;
+  }
+
+  .section1TxtDiv {
+    padding: 20px;
+    margin-left: 0px;
+    text-align: center;
+    max-width: unset;
+  }
+
+  .section1Photo {
+    width: unset;
+  }
+}
+
+
+
+
+@media screen and (max-width:550px) {
+
+  .divTop {
+    height: 500px;
+  }
+
+  .galleryDiv {
+    display: block;
+  }
+
+  .galleryTitle {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .gallerybtn {
+    display: none;
+  }
+
+  .gallerybtn2 {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .gallerybtn2:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .section1Title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .section1Photo {
+    height: 250px;
+  }
+
+  .galleryPhotosDiv span {
+    max-width: 200px;
+    padding: 10px 30px;
+  }
+
+  .galleryImage1,
+  .galleryImage2,
+  .galleryImage3,
+  .galleryImage4,
+  .galleryImage5,
+  .galleryImage6,
+  .galleryImage7,
+  .galleryImage8 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    flex-grow: 1;
+    flex-basis: 260px;
+    display: flex;
+    align-items: end;
+  }
+
+  .galleryImage1 {
+    background-image: url(../public/mobile/image-deep-earth.jpg);
+  }
+
+  .galleryImage2 {
+    background-image: url(../public/mobile/image-night-arcade.jpg);
+  }
+
+  .galleryImage3 {
+    background-image: url(../public/mobile/image-soccer-team.jpg);
+  }
+
+  .galleryImage4 {
+    background-image: url(../public/mobile/image-grid.jpg);
+  }
+
+  .galleryImage5 {
+    background-image: url(../public/mobile/image-from-above.jpg);
+  }
+
+  .galleryImage6 {
+    background-image: url(../public/mobile/image-pocket-borealis.jpg);
+  }
+
+  .galleryImage7 {
+    background-image: url(../public/mobile/image-curiosity.jpg);
+  }
+
+  .galleryImage8 {
+    background-image: url(../public/mobile/image-fisheye.jpg);
+  }
+
+  .footerWrapper {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footerLogo {
+    padding-bottom: 20px;
+  }
+
+  .footerLogo,
+  .footerLinks {
+    text-align: center;
+  }
+
+  .footerDiv {
+    display: block;
+    text-align: center;
+  }
+
+  .footerLinks .nav {
+    display: block;
+  }
+
+  .footerLinks a.nav-link {
+    padding-right: 0px;
+  }
+
+  .rightDiv {
+    padding-top: 20px;
+    display: inline-block;
+  }
+
+
+}
